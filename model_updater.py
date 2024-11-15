@@ -24,8 +24,7 @@ class ModelUpdater:
     def process_feedback(self):
         # This method will be called when feedback is received
         print("Feedback received. Model update may be needed.")
-        # In a real-world scenario, you might want to check if enough new feedback
-        # has been collected to warrant a model update
+        
 
     def update_training_data(self):
         # Load existing data
@@ -40,7 +39,7 @@ class ModelUpdater:
             new_data.append({
                 'query': user_input,
                 'response': bot_response,
-                'intent': 'new_intent'  # You might want to implement intent classification here
+                'intent': 'new_intent'  
             })
         
         # Concatenate new data with existing data
@@ -133,5 +132,4 @@ if __name__ == "__main__":
     # Run the model update (for testing purposes)
     model_updater.retrain_model()
 
-    # In a real scenario, you would use:
     # model_updater.schedule_updates()
