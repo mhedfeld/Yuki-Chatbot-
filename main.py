@@ -54,7 +54,7 @@ def create_decision_tree():
 decision_tree = create_decision_tree()
 
 def traverse_decision_tree(node, user_input, intent, depth=0):
-    if depth > 5 or node is None:  # Limit depth to prevent excessive recursion
+    if depth > 5 or node is None:  # Depth limit to prevent recursion errors. 
         return None
 
     if node.intent == intent:
@@ -112,7 +112,7 @@ def main():
     n_features = tfidf_matrix.shape[1]
     
     # Set the number of components for LSA
-    n_components = min(n_features - 1, 150)  # Use 150 or fewer components
+    n_components = min(n_features - 1, 150)  
     
     lsa = TruncatedSVD(n_components=n_components, random_state=42)
     X = lsa.fit_transform(tfidf_matrix)
@@ -146,10 +146,6 @@ def main():
         lsa_path='models/lsa.pkl',
         feedback_handler=feedback_handler
     )
-
-    # Comment out the thread start for now
-    # updater_thread = threading.Thread(target=model_updater.schedule_updates)
-    # updater_thread.start()
 
     print("Feedback handler and model updater initialized.")
 
