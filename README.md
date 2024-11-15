@@ -70,6 +70,6 @@ pip install -r requirements.txt
 - Hyperparameter tuning is performed to optimize the model's performance.
 
 - The Model Scales in performance with increased usage.
-- Unfortunately during my tesing, Sometimes after updating the model with the user feedback, would sometimes cause unexpected decreses in acuraccy, due to faulty intent classification. I was not able to adress this Issue adequately yet.
+- Unfortunately during my tesing, Sometimes after updating the model with the user feedback, would sometimes cause unexpected decreases in acuraccy, due to faulty intent classification. I was not able to adress this Issue adequately yet.
 
-- The Other Gui file, located in the repo is a legacy version of my initial UI. 
+- The Other Gui file, located in the repo is a legacy version of my current UI. 
