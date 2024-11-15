@@ -24,35 +24,35 @@ The model is trained using the Adam optimizer and sparse categorical crossentrop
 
 ## Repository Structure
 
-project_root/
-│
-├── data/
-│   └── your_custom_data.json
-│
-├── images/
-│   ├── user_icon.png
-│   └── bot_icon.png
-│
-├── models/
-│   ├── intent_classifier.pkl
-│   ├── tfidf_vectorizer.pkl
-│   └── lsa.pkl
-│
-├── src/
-│   ├── data_preparation.py
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model.py
-│   ├── hyperparameter_tuning.py
-│   └── modern_chatbot_ui.py
-│
-├── custom_widgets.py
-├── evaluate_and_retrain.py
-├── feedback_handler.py
-├── main.py
-├── model_updater.py
-├── requirements.txt
-└── README.md
+project_root/<br>
+│<br>
+├── data/<br>
+│   └── your_custom_data.json<br>
+│<br>
+├── images/<br>
+│   ├── user_icon.png<br>
+│   └── bot_icon.png<br>
+│<br>
+├── models/<br>
+│   ├── intent_classifier.pkl<br>
+│   ├── tfidf_vectorizer.pkl<br>
+│   └── lsa.pkl<br>
+│<br>
+├── src/<br>
+│   ├── data_preparation.py<br>
+│   ├── preprocessing.py<br>
+│   ├── feature_engineering.py<br>
+│   ├── model.py<br>
+│   ├── hyperparameter_tuning.py<br>
+│   └── modern_chatbot_ui.py<br>
+│<br>
+├── custom_widgets.py<br>
+├── evaluate_and_retrain.py<br>
+├── feedback_handler.py<br>
+├── main.py<br>
+├── model_updater.py<br>
+├── requirements.txt<br>
+└── README.md<br>
 
 ## How to Start the System
 1. Ensure you have Python 3.12 installed on your system.
@@ -68,3 +68,8 @@ pip install -r requirements.txt
 - User feedback is collected and stored in a SQLite database.
 - The model is periodically retrained using collected feedback and new data.
 - Hyperparameter tuning is performed to optimize the model's performance.
+
+- The Model Scales in performance with increased usage.
+- Unfortunately during my tesing, Sometimes after updating the model with the user feedback, would sometimes cause unexpected decreses in acuraccy, due to faulty intent classification. I was not able to adress this Issue adequately yet.
+
+- The Other Gui file, located in the repo is a legacy version of my initial UI. 
