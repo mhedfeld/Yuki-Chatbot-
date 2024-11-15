@@ -1,246 +1,281 @@
 [
     {
-    "query": "What products does Yuki offer for weight management?",
-    "response": "Yuki offers a state-of-the-art formulated shake designed specifically for appetite suppression and weight management. Our shake is the cornerstone of effective weight control.",
-    "intent": "product_inquiry"
+      "query": "What products do you offer for weight loss?",
+      "response": "We offer a range of weight loss supplements including Fat Burner Extreme, Metabolism Booster, Appetite Suppressant, and Green Tea Extract. Each product is designed to support different aspects of weight loss.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "Can you tell me about Yuki's weight management product?",
-    "response": "Certainly! Yuki provides a cutting-edge appetite suppressant shake. It's formulated with advanced ingredients to help control hunger and support your weight management goals effectively.",
-    "intent": "product_inquiry"
+      "query": "Can you tell me about your weight loss products?",
+      "response": "Certainly! Our weight loss line includes Fat Burner Extreme, Metabolism Booster, Appetite Suppressant, and Green Tea Extract, each tailored to help you achieve your fitness goals.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "I'm interested in weight management. What does Yuki have?",
-    "response": "Yuki offers an innovative appetite suppressant shake. It's specially formulated to help you manage your weight by controlling hunger and reducing calorie intake.",
-    "intent": "product_inquiry"
+      "query": "I'm interested in weight loss. What do you have?",
+      "response": "We have several options for weight loss, such as Fat Burner Extreme and Metabolism Booster, designed to help you shed pounds effectively.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "Does Yuki have supplements for weight control?",
-    "response": "Rather than traditional supplements, Yuki offers a scientifically formulated shake that acts as a powerful appetite suppressant, aiding in weight management.",
-    "intent": "product_inquiry"
+      "query": "Do you have supplements for losing weight?",
+      "response": "Yes, we offer various supplements like Fat Burner Extreme and Appetite Suppressant to aid in weight loss.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "What can I use from Yuki for weight management?",
-    "response": "Yuki's appetite suppressant shake is our primary offering for weight management. It's designed to effectively control hunger and support your weight loss journey.",
-    "intent": "product_inquiry"
+      "query": "What can I buy for weight management?",
+      "response": "For weight management, consider our Metabolism Booster and Green Tea Extract, both excellent for supporting your weight loss journey.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "Got anything to help me manage my weight?",
-    "response": "Absolutely! Our Yuki appetite suppressant shake is an excellent choice for those looking to manage their weight by controlling hunger and reducing calorie intake.",
-    "intent": "product_inquiry"
+      "query": "Got anything to help me lose a few pounds?",
+      "response": "Absolutely! Our Fat Burner Extreme and Appetite Suppressant are popular choices for those looking to shed some weight.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "What's Yuki's best seller for weight management?",
-    "response": "Our best-selling product is the Yuki appetite suppressant shake. It's known for its effective formula in controlling hunger and supporting weight management goals.",
-    "intent": "product_inquiry"
+      "query": "What's your best seller for weight loss?",
+      "response": "Our best-selling weight loss product is the Fat Burner Extreme, known for its effective formula in boosting metabolism and burning fat.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "I need help controlling my appetite, what do you recommend?",
-    "response": "We highly recommend our Yuki appetite suppressant shake. It's specifically formulated to help control hunger, making it easier to manage your calorie intake and support your weight management goals.",
-    "intent": "product_inquiry"
+      "query": "I need help slimming down, what do you recommend?",
+      "response": "For slimming down, we'd recommend our Metabolism Booster. It's great for enhancing your body's natural fat-burning processes.",
+      "intent": "product_inquiry"
     },
     {
-    "query": "How does Yuki's appetite suppressant shake work?",
-    "response": "Yuki's shake works by utilizing a blend of advanced ingredients that help control hunger and reduce calorie intake. It contains fiber to promote fullness, proteins for satiety, and specific compounds known to suppress appetite.",
-    "intent": "product_information"
+      "query": "How does Fat Burner Extreme work?",
+      "response": "Fat Burner Extreme works by increasing your metabolism and energy expenditure. It contains a blend of natural ingredients like caffeine, green tea extract, and cayenne pepper that help boost thermogenesis and fat oxidation.",
+      "intent": "product_information"
     },
     {
-    "query": "What makes Yuki's shake effective for appetite suppression?",
-    "response": "The effectiveness of Yuki's shake comes from its carefully selected ingredients. It includes high-quality proteins, soluble fibers, and specific appetite-suppressing compounds that work together to control hunger and support weight management.",
-    "intent": "product_information"
+      "query": "What makes Fat Burner Extreme effective?",
+      "response": "The effectiveness of Fat Burner Extreme comes from its ingredients, such as caffeine and green tea extract, which enhance thermogenesis and promote fat burning.",
+      "intent": "product_information"
     },
     {
-    "query": "Can you explain how Yuki's shake suppresses appetite?",
-    "response": "Yuki's shake suppresses appetite through a multi-faceted approach. It contains proteins that increase satiety, fibers that promote fullness, and specific compounds like glucomannan that are known to reduce hunger signals.",
-    "intent": "product_information"
+      "query": "Can you explain the function of Fat Burner Extreme?",
+      "response": "Fat Burner Extreme functions by boosting your metabolism and increasing energy expenditure, thanks to its natural components like cayenne pepper and caffeine.",
+      "intent": "product_information"
     },
     {
-    "query": "What's special about Yuki's appetite suppressant shake?",
-    "response": "Yuki's shake is special because it uses a scientifically formulated blend of ingredients to effectively suppress appetite. It's not just a meal replacement, but a targeted tool for hunger control and weight management.",
-    "intent": "product_information"
+      "query": "What's special about Fat Burner Extreme?",
+      "response": "Fat Burner Extreme is special because it uses natural ingredients to enhance your metabolic rate and support fat oxidation, making it a powerful weight loss aid.",
+      "intent": "product_information"
     },
     {
-    "query": "Tell me how Yuki's shake helps with weight management.",
-    "response": "Yuki's shake aids weight management by effectively suppressing appetite. It helps you feel full for longer, reduces cravings, and makes it easier to control your calorie intake, supporting your weight loss or maintenance goals.",
-    "intent": "product_information"
+      "query": "Tell me how Fat Burner Extreme helps with weight loss.",
+      "response": "Fat Burner Extreme aids weight loss by promoting thermogenesis and fat oxidation, utilizing ingredients like green tea extract and caffeine.",
+      "intent": "product_information"
     },
     {
-    "query": "What's the science behind Yuki's appetite suppressant shake?",
-    "response": "The science behind Yuki's shake involves using ingredients scientifically shown to suppress appetite. This includes proteins for satiety, fibers like glucomannan that expand in the stomach, and compounds that influence hunger hormones.",
-    "intent": "product_information"
+      "query": "What's the science behind Fat Burner Extreme?",
+      "response": "The science behind Fat Burner Extreme involves increasing metabolic rate and thermogenesis. Its ingredients like caffeine and green tea extract are scientifically shown to boost fat oxidation.",
+      "intent": "product_information"
     },
     {
-    "query": "How exactly does Yuki's shake control hunger?",
-    "response": "Yuki's shake controls hunger through multiple mechanisms. It provides protein for long-lasting satiety, includes fibers that create a feeling of fullness, and contains specific compounds that can influence hormones related to hunger and fullness.",
-    "intent": "product_information"
+      "query": "How exactly does Fat Burner Extreme burn fat?",
+      "response": "Fat Burner Extreme burns fat by increasing your body's core temperature and metabolic rate. This process, known as thermogenesis, helps your body use more energy and burn more fat.",
+      "intent": "product_information"
     },
     {
-    "query": "Is Yuki's appetite suppressant shake safe?",
-    "response": "Yes, Yuki's shake is formulated with safety in mind, using natural and well-researched ingredients. However, as with any dietary change, we recommend consulting with your healthcare provider before starting, especially if you have pre-existing health conditions.",
-    "intent": "safety_inquiry"
+      "query": "Are your supplements safe?",
+      "response": "Yes, our supplements are formulated with natural ingredients and are manufactured in FDA-approved facilities. However, as with any supplement, we recommend consulting with your healthcare provider before starting any new regimen, especially if you have pre-existing health conditions or are taking medications.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "Can I trust the safety of Yuki's product?",
-    "response": "Absolutely. Yuki's shake is made with carefully selected, high-quality ingredients and produced in certified facilities. We prioritize safety in our formulation and production processes.",
-    "intent": "safety_inquiry"
+      "query": "Can I trust the safety of your products?",
+      "response": "Absolutely, our products are made with natural ingredients and are produced in FDA-approved facilities. Always consult your healthcare provider for personal advice.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "Are there any safety concerns with Yuki's shake?",
-    "response": "Yuki's shake is generally safe when used as directed. However, we always advise consulting with a healthcare professional, especially if you have health conditions or are on medication.",
-    "intent": "safety_inquiry"
+      "query": "Are there any safety concerns with your supplements?",
+      "response": "Our supplements are safe when used as directed, but we advise consulting with a healthcare professional, especially if you have health conditions or are on medication.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "How safe is Yuki's appetite suppressant shake?",
-    "response": "Yuki's appetite suppressant shake is formulated with safety as a top priority. We use natural, well-researched ingredients. However, please consult your healthcare provider, particularly if you have existing health issues.",
-    "intent": "safety_inquiry"
+      "query": "How safe are your weight loss supplements?",
+      "response": "Our weight loss supplements are generally safe, made with natural ingredients. However, please consult your healthcare provider, particularly if you have existing health issues.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "Should I be worried about the safety of Yuki's shake?",
-    "response": "Yuki's shake is produced with strict safety standards in certified facilities. However, we recommend consulting with a healthcare provider for personalized safety advice, especially if you have any health concerns.",
-    "intent": "safety_inquiry"
+      "query": "Should I be worried about the safety of your supplements?",
+      "response": "Our supplements are safe and produced in FDA-approved facilities. We recommend consulting with a healthcare provider for personalized safety advice.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "Are there any risks associated with Yuki's product?",
-    "response": "While Yuki's shake is generally safe, as with any dietary change, there can be risks, especially if you have pre-existing conditions. We always recommend consulting with a healthcare professional before starting any new dietary regimen.",
-    "intent": "safety_inquiry"
+      "query": "Are there any risks associated with your products?",
+      "response": "While our products are generally safe, as with any supplement, there can be risks, especially if you have pre-existing conditions. We always recommend consulting with a healthcare professional before starting any new supplement regimen.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "How does Yuki ensure the safety of its shake?",
-    "response": "We ensure the safety of Yuki's shake through rigorous quality control measures, using only high-quality, well-researched ingredients, and manufacturing in certified facilities. We also recommend consulting with a healthcare provider before use.",
-    "intent": "safety_inquiry"
+      "query": "How do you ensure the safety of your supplements?",
+      "response": "We ensure the safety of our supplements through rigorous quality control measures, using only natural ingredients, and manufacturing in FDA-approved facilities. We also recommend consulting with a healthcare provider before use.",
+      "intent": "safety_inquiry"
     },
     {
-    "query": "What's the recommended usage for Yuki's shake?",
-    "response": "The recommended usage for Yuki's appetite suppressant shake is one serving per day, preferably as a meal replacement. Mix the shake with water or your preferred milk and consume it in place of a meal, typically lunch or dinner.",
-    "intent": "usage_instructions"
+      "query": "What's the recommended dosage for Metabolism Booster?",
+      "response": "The recommended dosage for Metabolism Booster is two capsules per day, preferably with meals. It's best to take one capsule in the morning and one in the afternoon. Do not exceed the recommended dosage.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "How should I take Yuki's appetite suppressant shake?",
-    "response": "Take one serving of Yuki's shake daily as a meal replacement. Mix it with water or milk and consume it in place of your lunch or dinner for optimal appetite suppression and weight management results.",
-    "intent": "usage_instructions"
+      "query": "How should I take Metabolism Booster?",
+      "response": "Take two capsules of Metabolism Booster daily with meals. For optimal results, take one in the morning and another in the afternoon.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "What's the best way to use Yuki's shake?",
-    "response": "For best results, replace one meal per day (preferably lunch or dinner) with Yuki's shake. Mix one serving with water or milk and drink it slowly to maximize its appetite-suppressing effects.",
-    "intent": "usage_instructions"
+      "query": "What's the best way to use Metabolism Booster?",
+      "response": "For best results, take two capsules of Metabolism Booster per day with meals, ideally one in the morning and one in the afternoon.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "Can you tell me the dosage for Yuki's shake?",
-    "response": "The recommended dosage for Yuki's shake is one serving per day. Use it to replace one of your daily meals, typically lunch or dinner, for effective appetite suppression and weight management.",
-    "intent": "usage_instructions"
+      "query": "Can you tell me the dosage for Metabolism Booster?",
+      "response": "The dosage for Metabolism Booster is two capsules daily, taken with meals. It's recommended to have one in the morning and one in the afternoon.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "How do I use Yuki's shake effectively?",
-    "response": "To use Yuki's shake effectively, replace one meal per day with a serving of the shake. Consistency is key - use it daily and combine it with a balanced diet and regular exercise for optimal results.",
-    "intent": "usage_instructions"
+      "query": "How do I use Metabolism Booster effectively?",
+      "response": "To use Metabolism Booster effectively, take two capsules daily with meals, one in the morning and one in the afternoon.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "What's the correct way to take Yuki's appetite suppressant shake?",
-    "response": "The correct way to take Yuki's shake is to mix one serving with water or milk and consume it in place of a meal, preferably lunch or dinner. Drink it slowly to maximize its appetite-suppressing effects.",
-    "intent": "usage_instructions"
+      "query": "What's the correct way to take Metabolism Booster?",
+      "response": "The correct way to take Metabolism Booster is to consume two capsules daily, preferably with meals. We suggest taking one in the morning and one in the afternoon for optimal results.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "Can I take Yuki's shake multiple times a day?",
-    "response": "We don't recommend taking Yuki's shake multiple times a day. The optimal usage is one serving daily as a meal replacement. Overuse may lead to nutritional imbalances and is not more effective for weight management.",
-    "intent": "usage_instructions"
+      "query": "Can I take all the Metabolism Booster pills at once?",
+      "response": "We don't recommend taking all the Metabolism Booster pills at once. The optimal usage is two capsules daily, spread out with one in the morning and one in the afternoon, preferably with meals.",
+      "intent": "usage_instructions"
     },
     {
-    "query": "How long does it take to see results with Yuki's shake?",
-    "response": "Results can vary depending on individual factors such as diet, exercise, and metabolism. Generally, when used consistently as part of a balanced diet and regular exercise routine, many customers report noticing changes within 2-4 weeks.",
-    "intent": "effectiveness_inquiry"
+      "query": "How long does it take to see results?",
+      "response": "Results can vary depending on individual factors such as diet, exercise, and metabolism. Generally, when combined with a healthy diet and regular exercise, many customers report seeing initial results within 2-4 weeks of consistent use.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "When will I start noticing changes with Yuki's shake?",
-    "response": "Changes can often be noticed within 2-4 weeks of consistent use of Yuki's shake, especially when paired with a healthy diet and regular exercise. Individual results may vary.",
-    "intent": "effectiveness_inquiry"
+      "query": "When will I start noticing changes?",
+      "response": "Changes can be noticed within 2-4 weeks of consistent use, especially when paired with a healthy diet and regular exercise.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "How quickly does Yuki's shake work?",
-    "response": "Yuki's shake typically shows results within 2-4 weeks when used consistently as part of a balanced diet and exercise routine. However, you may notice its appetite-suppressing effects more immediately.",
-    "intent": "effectiveness_inquiry"
+      "query": "How quickly do your products work?",
+      "response": "Our products typically show results within 2-4 weeks when used consistently alongside a balanced diet and exercise routine.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "What is the timeframe for seeing results with Yuki?",
-    "response": "Most users see noticeable results within 2-4 weeks of consistent use of Yuki's shake, provided they maintain a healthy diet and regular exercise regimen alongside it.",
-    "intent": "effectiveness_inquiry"
+      "query": "What is the timeframe for seeing results?",
+      "response": "Most users see results within 2-4 weeks, provided they maintain a healthy diet and regular exercise regimen.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "How soon can I expect to see effects from Yuki's shake?",
-    "response": "While appetite-suppressing effects can be felt relatively quickly, visible weight management results are usually seen within 2-4 weeks with consistent use, especially when combined with healthy lifestyle choices.",
-    "intent": "effectiveness_inquiry"
+      "query": "How soon can I expect to see effects?",
+      "response": "Effects are usually seen within 2-4 weeks with consistent use, especially when combined with healthy lifestyle choices.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "Will I see instant results with Yuki's shake?",
-    "response": "While Yuki's shake is effective, instant results are not typical. Most users begin to see noticeable changes within 2-4 weeks of consistent use, combined with a healthy diet and regular exercise. However, you may feel its appetite-suppressing effects more immediately.",
-    "intent": "effectiveness_inquiry"
+      "query": "Will I see instant results with your supplements?",
+      "response": "While our supplements are effective, instant results are not typical. Most users begin to see noticeable changes within 2-4 weeks of consistent use, combined with a healthy diet and regular exercise.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "How long before I notice weight changes with Yuki's product?",
-    "response": "Weight changes can vary, but typically, customers report noticing changes within 2-4 weeks when using Yuki's shake consistently along with a balanced diet and exercise routine.",
-    "intent": "effectiveness_inquiry"
+      "query": "How long before I notice weight loss with your products?",
+      "response": "Weight loss results can vary, but typically, customers report noticing changes within 2-4 weeks when using our products consistently along with a balanced diet and exercise routine.",
+      "intent": "effectiveness_inquiry"
     },
     {
-    "query": "Does Yuki offer international shipping?",
-    "response": "Yes, Yuki offers international shipping to most countries. Shipping times and costs vary depending on the destination. You can view specific shipping information during the checkout process on our website.",
-    "intent": "shipping_inquiry"
+      "query": "Do you offer international shipping?",
+      "response": "Yes, we offer international shipping to most countries. Shipping times and costs vary depending on the destination. You can view specific shipping information during the checkout process.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "Can I get Yuki's shake shipped internationally?",
-    "response": "Certainly! We ship Yuki's shake internationally to most countries. Shipping times and costs will vary based on your location, and details are available during checkout on our website.",
-    "intent": "shipping_inquiry"
+      "query": "Can I get your products shipped internationally?",
+      "response": "Certainly! We ship internationally to most countries. Shipping times and costs will vary based on your location, detailed during checkout.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "Is international delivery available for Yuki's product?",
-    "response": "Yes, we provide international delivery for Yuki's shake. Costs and times depend on your destination, and details are available at checkout on our website.",
-    "intent": "shipping_inquiry"
+      "query": "Is international delivery available?",
+      "response": "Yes, we provide international delivery. Costs and times depend on your destination, and details are available at checkout.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "Does Yuki ship outside the country?",
-    "response": "Yes, Yuki ships to most international locations. Shipping details, including costs, are available during the checkout process on our website.",
-    "intent": "shipping_inquiry"
+      "query": "Do you ship outside the country?",
+      "response": "We do ship outside the country to most international locations. Shipping details, including costs, are available during the checkout process.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "Is Yuki's shake available for international shipping?",
-    "response": "Yuki's shake is available for international shipping to most destinations. Check the checkout process on our website for specific details about shipping to your location.",
-    "intent": "shipping_inquiry"
+      "query": "Are your products available for international shipping?",
+      "response": "Our products are available for international shipping to most destinations. Check the checkout process for specific details.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "How much does international shipping cost for Yuki's shake?",
-    "response": "International shipping costs for Yuki's shake vary depending on the destination and order size. You can get a precise quote by entering your shipping details during the checkout process on our website.",
-    "intent": "shipping_inquiry"
+      "query": "How much does international shipping cost?",
+      "response": "International shipping costs vary depending on the destination and order size. You can get a precise quote by entering your shipping details during the checkout process.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "Which countries does Yuki ship to?",
-    "response": "Yuki ships to most countries worldwide. During the checkout process on our website, you can select your country to see if we ship there and get specific shipping information.",
-    "intent": "shipping_inquiry"
+      "query": "Which countries do you ship to?",
+      "response": "We ship to most countries worldwide. During the checkout process, you can select your country to see if we ship there and get specific shipping information.",
+      "intent": "shipping_inquiry"
     },
     {
-    "query": "What's Yuki's return policy?",
-    "response": "We offer a 30-day money-back guarantee on Yuki's shake. If you're not satisfied with your purchase, you can return the unused portion within 30 days of delivery for a full refund, minus shipping costs.",
-    "intent": "return_policy"
+      "query": "What's your return policy?",
+      "response": "We offer a 30-day money-back guarantee on all our products. If you're not satisfied with your purchase, you can return the unused portion within 30 days of delivery for a full refund, minus shipping costs.",
+      "intent": "return_policy"
     },
     {
-    "query": "How do I return Yuki's product?",
-    "response": "You can return Yuki's shake within 30 days of delivery for a full refund, minus shipping costs, if you're not satisfied. Please contact our customer service for the return process.",
-    "intent": "return_policy"
+      "query": "How do I return a product?",
+      "response": "You can return a product within 30 days of delivery for a full refund, minus shipping costs, if you're not satisfied.",
+      "intent": "return_policy"
     },
     {
-    "query": "Can I return Yuki's shake if I'm not happy?",
-    "response": "Yes, we have a 30-day money-back guarantee. If you're not satisfied, you can return the unused portion of Yuki's shake within 30 days for a refund, excluding shipping costs.",
-    "intent": "return_policy"
+      "query": "Can I return a product if I'm not happy?",
+      "response": "Yes, we have a 30-day money-back guarantee. Return the unused portion within 30 days for a refund, excluding shipping costs.",
+      "intent": "return_policy"
     },
     {
-    "query": "What's the process for returning Yuki's shake?",
-    "response": "To return Yuki's shake, ensure it's within 30 days of delivery and has unused product. Contact our customer service for return instructions. You'll receive a full refund, minus shipping costs.",
-    "intent": "return_policy"
+      "query": "What's the process for returning items?",
+      "response": "To return items, ensure they are within 30 days of delivery and unused. You'll receive a full refund, minus shipping costs.",
+      "intent": "return_policy"
     },
     {
-    "query": "Does Yuki have a satisfaction guarantee?",
-    "response": "Yes, we offer a 30-day satisfaction guarantee for Yuki's shake. If not satisfied, you can return the product within 30 days for a refund, excluding shipping costs.",
-    "intent": "return_policy"
+      "query": "Do you have a satisfaction guarantee?",
+      "response": "We offer a 30-day satisfaction guarantee. If not satisfied, return the product within 30 days for a refund, excluding shipping.",
+      "intent": "return_policy"
     },
     {
-    "query": "What if I don't like Yuki's product?",
-    "response": "If you're not satisfied with Yuki's shake, you can return the unused portion within 30 days of delivery for a full refund, minus shipping costs, under our 30-day money-back guarantee.",
-    "intent": "return_policy"
+      "query": "What if I don't like the product?",
+      "response": "If you're not satisfied with your purchase, you can return the unused portion within 30 days of delivery for a full refund, minus shipping costs, under our 30-day money-back guarantee.",
+      "intent": "return_policy"
+    },
+    {
+      "query": "Is there a time limit for returns?",
+      "response": "Yes, there is a 30-day time limit for returns. You can return the unused portion of your product within 30 days of delivery for a full refund, excluding shipping costs.",
+      "intent": "return_policy"
+    },
+    {
+      "query": "Are there any side effects?",
+      "response": "Most of our customers don't experience side effects. However, some people may experience mild effects such as increased heart rate or difficulty sleeping, especially with products containing caffeine. If you experience any adverse effects, discontinue use and consult your healthcare provider.",
+      "intent": "side_effects"
+    },
+    {
+      "query": "Should I be concerned about side effects?",
+      "response": "Side effects are rare but can include increased heart rate or sleep issues, particularly with caffeine-containing products. Consult your healthcare provider if concerned.",
+      "intent": "side_effects"
+    },
+    {
+      "query": "What side effects might occur?",
+      "response": "Possible side effects include increased heart rate and sleep difficulties, especially with caffeine products. Discontinue use and consult a healthcare provider if needed.",
+      "intent": "side_effects"
+    },
+    {
+      "query": "Are there any known adverse effects?",
+      "response": "While most users don't experience side effects, some may have increased heart rate or sleep issues. If adverse effects occur, stop use and consult a healthcare provider.",
+      "intent": "side_effects"
+    },
+    {
+      "query": "Can your supplements cause side effects?",
+      "response": "Our supplements are generally well-tolerated, but some might experience mild effects like increased heart rate. Consult a healthcare provider if needed.",
+      "intent": "side_effects"
+    },
+    {
+      "query": "What are the potential negative effects of your products?",
+      "response": "While rare, potential negative effects may include increased heart rate, difficulty sleeping, or digestive discomfort, especially with caffeine-containing products. If you experience any adverse effects, stop use and consult your doctor.",
+      "intent": "side_effects"
     }]

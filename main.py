@@ -91,13 +91,14 @@ def preprocess_text(text):
     return ' '.join(tokens)
 
 def main():
+    global df, model, label_encoder, tfidf_vectorizer, lsa
+
     print("Initializing chatbot...")
     nltk.download('punkt', quiet=True)
     nltk.download('stopwords', quiet=True)
     nltk.download('wordnet', quiet=True)
 
     print("Loading and preparing data...")
-    global df
     df = load_and_prepare_data('data/your_custom_data.json')
 
     print("Preprocessing data...")
@@ -111,7 +112,7 @@ def main():
     n_features = tfidf_matrix.shape[1]
     
     # Set the number of components for LSA
-    n_components = min(n_features - 1, 300)  # Use 300 or fewer components
+    n_components = min(n_features - 1, 150)  # Use 150 or fewer components
     
     lsa = TruncatedSVD(n_components=n_components, random_state=42)
     X = lsa.fit_transform(tfidf_matrix)
@@ -146,30 +147,47 @@ def main():
         feedback_handler=feedback_handler
     )
 
-    # Start the model updater in a separate thread
-    updater_thread = threading.Thread(target=model_updater.schedule_updates)
-    updater_thread.start()
+    # Comment out the thread start for now
+    # updater_thread = threading.Thread(target=model_updater.schedule_updates)
+    # updater_thread.start()
 
-    print("Initialization complete. Launching GUI...")
+    print("Feedback handler and model updater initialized.")
 
     def response_generator(query):
         preprocessed_query = preprocess_text(query)
-        intent, confidence = predict_intent(model, label_encoder, tfidf_vectorizer, lsa, preprocessed_query, confidence_threshold=0.5)
-        
+        try:
+            intent, confidence = predict_intent(model, label_encoder, tfidf_vectorizer, lsa, preprocessed_query, confidence_threshold=0.1)
+        except Exception as e:
+            print(f"Error in intent prediction: {e}")
+            intent = "unknown"
+            confidence = 0
+
+        # Always try to get a response from the decision tree first
         tree_response = traverse_decision_tree(decision_tree, query, intent)
         if tree_response:
             return tree_response
-        
-        if intent == "unknown" or confidence < 0.5:
-            return "I'm not sure I understood that correctly. Could you please rephrase your question or provide more details?"
-        
-        possible_responses = df[df['intent'] == intent]['response'].tolist()
-        return random.choice(possible_responses) if possible_responses else "I'm sorry, I don't have a specific answer for that."
+
+        # If no tree response, use intent-based response or fallback
+        if intent != "unknown" and confidence >= 0.1:
+            possible_responses = df[df['intent'] == intent]['response'].tolist()
+            if possible_responses:
+                return random.choice(possible_responses)
+
+        # Fallback responses
+        fallback_responses = [
+            "I'm not sure I understood that correctly. Could you please rephrase your question?",
+            "I'm having trouble understanding. Can you provide more details?",
+            "I'm sorry, but I don't have a specific answer for that. Is there something else I can help you with?",
+            "I'm still learning and may not have the answer to that. Can you try asking in a different way?",
+            "I apologize, but I'm not able to provide a relevant answer at the moment. Is there another topic you'd like to discuss?"
+        ]
+        return random.choice(fallback_responses)
 
     def feedback_handler_func(user_message, bot_message, is_helpful):
         feedback_handler.add_feedback(user_message, bot_message, is_helpful)
         model_updater.process_feedback()
 
+    print("Initialization complete. Launching GUI...")
     app = ModernChatbotUI(response_generator, feedback_handler_func)
     app.mainloop()
 

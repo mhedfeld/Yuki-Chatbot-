@@ -6,19 +6,20 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Input
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.regularizers import l2
 import pickle
 
-def create_model(neurons1=256, neurons2=128, neurons3=64, dropout_rate=0.5, learning_rate=0.001, input_shape=None, num_classes=None):
+def create_model(neurons1=256, neurons2=128, neurons3=64, dropout_rate=0.5, learning_rate=0.001, l2_reg=0.01, input_shape=None, num_classes=None):
     if input_shape is None or num_classes is None:
         raise ValueError("input_shape and num_classes must be provided")
     
     model = Sequential([
         Input(shape=input_shape),
-        Dense(neurons1, activation='relu'),
+        Dense(neurons1, activation='relu', kernel_regularizer=l2(l2_reg)),
         Dropout(dropout_rate),
-        Dense(neurons2, activation='relu'),
+        Dense(neurons2, activation='relu', kernel_regularizer=l2(l2_reg)),
         Dropout(dropout_rate),
-        Dense(neurons3, activation='relu'),
+        Dense(neurons3, activation='relu', kernel_regularizer=l2(l2_reg)),
         Dropout(dropout_rate),
         Dense(num_classes, activation='softmax')
     ])
@@ -56,15 +57,23 @@ def train_intent_classifier(X, y, **kwargs):
 
     return model, label_encoder, history
 
-def predict_intent(model, label_encoder, tfidf_vectorizer, lsa, query, confidence_threshold=0.5):
+def predict_intent(model, label_encoder, tfidf_vectorizer, lsa, query, confidence_threshold=0.35):
     query_vector = tfidf_vectorizer.transform([query])
     query_vector_lsa = lsa.transform(query_vector)
     intent_probabilities = model.predict(query_vector_lsa)[0]
     predicted_intent_index = np.argmax(intent_probabilities)
     confidence = intent_probabilities[predicted_intent_index]
     
+    print("Debug - Query:", query)
+    print("Debug - Intent probabilities:", intent_probabilities)
+    print("Debug - Predicted intent index:", predicted_intent_index)
+    print("Debug - Confidence:", confidence)
+    print("Debug - Confidence threshold:", confidence_threshold)
+    
     if confidence >= confidence_threshold:
         predicted_intent = label_encoder.inverse_transform([predicted_intent_index])[0]
+        print("Debug - Predicted intent:", predicted_intent)
         return predicted_intent, confidence
     else:
+        print("Debug - Intent: unknown")
         return "unknown", confidence

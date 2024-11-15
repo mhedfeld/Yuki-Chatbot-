@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.layers import Dense, Dropout, Input
 from tensorflow.keras.optimizers import Adam
 from src.data_preparation import load_and_prepare_data
 from src.preprocessing import preprocess_text
@@ -63,7 +63,13 @@ class ModelUpdater:
         tfidf_vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 2))
         tfidf_matrix = tfidf_vectorizer.fit_transform(df['preprocessed_query'])
         
-        lsa = TruncatedSVD(n_components=300, random_state=42)
+        # Get the number of features in the TF-IDF matrix
+        n_features = tfidf_matrix.shape[1]
+        
+        # Set the number of components for LSA
+        n_components = min(n_features - 1, 300)  # Use 300 or fewer components
+        
+        lsa = TruncatedSVD(n_components=n_components, random_state=42)
         X = lsa.fit_transform(tfidf_matrix)
         
         # Prepare target variable
@@ -88,7 +94,8 @@ class ModelUpdater:
 
     def create_model(self, input_shape, num_classes):
         model = Sequential([
-            Dense(256, activation='relu', input_shape=input_shape),
+            Input(shape=input_shape),
+            Dense(256, activation='relu'),
             Dropout(0.5),
             Dense(128, activation='relu'),
             Dropout(0.5),
