@@ -33,7 +33,7 @@ class MessageBubble(ctk.CTkFrame):
 
         # Load and resize icon
         icon = Image.open(icon_path)
-        icon = icon.resize((30, 30))  # Adjust size as needed
+        icon = icon.resize((30, 30))  
         icon = ImageTk.PhotoImage(icon)
 
         # Icon
