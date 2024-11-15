@@ -1,0 +1,246 @@
+[
+    {
+    "query": "What products does Yuki offer for weight management?",
+    "response": "Yuki offers a state-of-the-art formulated shake designed specifically for appetite suppression and weight management. Our shake is the cornerstone of effective weight control.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "Can you tell me about Yuki's weight management product?",
+    "response": "Certainly! Yuki provides a cutting-edge appetite suppressant shake. It's formulated with advanced ingredients to help control hunger and support your weight management goals effectively.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "I'm interested in weight management. What does Yuki have?",
+    "response": "Yuki offers an innovative appetite suppressant shake. It's specially formulated to help you manage your weight by controlling hunger and reducing calorie intake.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "Does Yuki have supplements for weight control?",
+    "response": "Rather than traditional supplements, Yuki offers a scientifically formulated shake that acts as a powerful appetite suppressant, aiding in weight management.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "What can I use from Yuki for weight management?",
+    "response": "Yuki's appetite suppressant shake is our primary offering for weight management. It's designed to effectively control hunger and support your weight loss journey.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "Got anything to help me manage my weight?",
+    "response": "Absolutely! Our Yuki appetite suppressant shake is an excellent choice for those looking to manage their weight by controlling hunger and reducing calorie intake.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "What's Yuki's best seller for weight management?",
+    "response": "Our best-selling product is the Yuki appetite suppressant shake. It's known for its effective formula in controlling hunger and supporting weight management goals.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "I need help controlling my appetite, what do you recommend?",
+    "response": "We highly recommend our Yuki appetite suppressant shake. It's specifically formulated to help control hunger, making it easier to manage your calorie intake and support your weight management goals.",
+    "intent": "product_inquiry"
+    },
+    {
+    "query": "How does Yuki's appetite suppressant shake work?",
+    "response": "Yuki's shake works by utilizing a blend of advanced ingredients that help control hunger and reduce calorie intake. It contains fiber to promote fullness, proteins for satiety, and specific compounds known to suppress appetite.",
+    "intent": "product_information"
+    },
+    {
+    "query": "What makes Yuki's shake effective for appetite suppression?",
+    "response": "The effectiveness of Yuki's shake comes from its carefully selected ingredients. It includes high-quality proteins, soluble fibers, and specific appetite-suppressing compounds that work together to control hunger and support weight management.",
+    "intent": "product_information"
+    },
+    {
+    "query": "Can you explain how Yuki's shake suppresses appetite?",
+    "response": "Yuki's shake suppresses appetite through a multi-faceted approach. It contains proteins that increase satiety, fibers that promote fullness, and specific compounds like glucomannan that are known to reduce hunger signals.",
+    "intent": "product_information"
+    },
+    {
+    "query": "What's special about Yuki's appetite suppressant shake?",
+    "response": "Yuki's shake is special because it uses a scientifically formulated blend of ingredients to effectively suppress appetite. It's not just a meal replacement, but a targeted tool for hunger control and weight management.",
+    "intent": "product_information"
+    },
+    {
+    "query": "Tell me how Yuki's shake helps with weight management.",
+    "response": "Yuki's shake aids weight management by effectively suppressing appetite. It helps you feel full for longer, reduces cravings, and makes it easier to control your calorie intake, supporting your weight loss or maintenance goals.",
+    "intent": "product_information"
+    },
+    {
+    "query": "What's the science behind Yuki's appetite suppressant shake?",
+    "response": "The science behind Yuki's shake involves using ingredients scientifically shown to suppress appetite. This includes proteins for satiety, fibers like glucomannan that expand in the stomach, and compounds that influence hunger hormones.",
+    "intent": "product_information"
+    },
+    {
+    "query": "How exactly does Yuki's shake control hunger?",
+    "response": "Yuki's shake controls hunger through multiple mechanisms. It provides protein for long-lasting satiety, includes fibers that create a feeling of fullness, and contains specific compounds that can influence hormones related to hunger and fullness.",
+    "intent": "product_information"
+    },
+    {
+    "query": "Is Yuki's appetite suppressant shake safe?",
+    "response": "Yes, Yuki's shake is formulated with safety in mind, using natural and well-researched ingredients. However, as with any dietary change, we recommend consulting with your healthcare provider before starting, especially if you have pre-existing health conditions.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "Can I trust the safety of Yuki's product?",
+    "response": "Absolutely. Yuki's shake is made with carefully selected, high-quality ingredients and produced in certified facilities. We prioritize safety in our formulation and production processes.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "Are there any safety concerns with Yuki's shake?",
+    "response": "Yuki's shake is generally safe when used as directed. However, we always advise consulting with a healthcare professional, especially if you have health conditions or are on medication.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "How safe is Yuki's appetite suppressant shake?",
+    "response": "Yuki's appetite suppressant shake is formulated with safety as a top priority. We use natural, well-researched ingredients. However, please consult your healthcare provider, particularly if you have existing health issues.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "Should I be worried about the safety of Yuki's shake?",
+    "response": "Yuki's shake is produced with strict safety standards in certified facilities. However, we recommend consulting with a healthcare provider for personalized safety advice, especially if you have any health concerns.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "Are there any risks associated with Yuki's product?",
+    "response": "While Yuki's shake is generally safe, as with any dietary change, there can be risks, especially if you have pre-existing conditions. We always recommend consulting with a healthcare professional before starting any new dietary regimen.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "How does Yuki ensure the safety of its shake?",
+    "response": "We ensure the safety of Yuki's shake through rigorous quality control measures, using only high-quality, well-researched ingredients, and manufacturing in certified facilities. We also recommend consulting with a healthcare provider before use.",
+    "intent": "safety_inquiry"
+    },
+    {
+    "query": "What's the recommended usage for Yuki's shake?",
+    "response": "The recommended usage for Yuki's appetite suppressant shake is one serving per day, preferably as a meal replacement. Mix the shake with water or your preferred milk and consume it in place of a meal, typically lunch or dinner.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "How should I take Yuki's appetite suppressant shake?",
+    "response": "Take one serving of Yuki's shake daily as a meal replacement. Mix it with water or milk and consume it in place of your lunch or dinner for optimal appetite suppression and weight management results.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "What's the best way to use Yuki's shake?",
+    "response": "For best results, replace one meal per day (preferably lunch or dinner) with Yuki's shake. Mix one serving with water or milk and drink it slowly to maximize its appetite-suppressing effects.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "Can you tell me the dosage for Yuki's shake?",
+    "response": "The recommended dosage for Yuki's shake is one serving per day. Use it to replace one of your daily meals, typically lunch or dinner, for effective appetite suppression and weight management.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "How do I use Yuki's shake effectively?",
+    "response": "To use Yuki's shake effectively, replace one meal per day with a serving of the shake. Consistency is key - use it daily and combine it with a balanced diet and regular exercise for optimal results.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "What's the correct way to take Yuki's appetite suppressant shake?",
+    "response": "The correct way to take Yuki's shake is to mix one serving with water or milk and consume it in place of a meal, preferably lunch or dinner. Drink it slowly to maximize its appetite-suppressing effects.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "Can I take Yuki's shake multiple times a day?",
+    "response": "We don't recommend taking Yuki's shake multiple times a day. The optimal usage is one serving daily as a meal replacement. Overuse may lead to nutritional imbalances and is not more effective for weight management.",
+    "intent": "usage_instructions"
+    },
+    {
+    "query": "How long does it take to see results with Yuki's shake?",
+    "response": "Results can vary depending on individual factors such as diet, exercise, and metabolism. Generally, when used consistently as part of a balanced diet and regular exercise routine, many customers report noticing changes within 2-4 weeks.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "When will I start noticing changes with Yuki's shake?",
+    "response": "Changes can often be noticed within 2-4 weeks of consistent use of Yuki's shake, especially when paired with a healthy diet and regular exercise. Individual results may vary.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "How quickly does Yuki's shake work?",
+    "response": "Yuki's shake typically shows results within 2-4 weeks when used consistently as part of a balanced diet and exercise routine. However, you may notice its appetite-suppressing effects more immediately.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "What is the timeframe for seeing results with Yuki?",
+    "response": "Most users see noticeable results within 2-4 weeks of consistent use of Yuki's shake, provided they maintain a healthy diet and regular exercise regimen alongside it.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "How soon can I expect to see effects from Yuki's shake?",
+    "response": "While appetite-suppressing effects can be felt relatively quickly, visible weight management results are usually seen within 2-4 weeks with consistent use, especially when combined with healthy lifestyle choices.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "Will I see instant results with Yuki's shake?",
+    "response": "While Yuki's shake is effective, instant results are not typical. Most users begin to see noticeable changes within 2-4 weeks of consistent use, combined with a healthy diet and regular exercise. However, you may feel its appetite-suppressing effects more immediately.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "How long before I notice weight changes with Yuki's product?",
+    "response": "Weight changes can vary, but typically, customers report noticing changes within 2-4 weeks when using Yuki's shake consistently along with a balanced diet and exercise routine.",
+    "intent": "effectiveness_inquiry"
+    },
+    {
+    "query": "Does Yuki offer international shipping?",
+    "response": "Yes, Yuki offers international shipping to most countries. Shipping times and costs vary depending on the destination. You can view specific shipping information during the checkout process on our website.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "Can I get Yuki's shake shipped internationally?",
+    "response": "Certainly! We ship Yuki's shake internationally to most countries. Shipping times and costs will vary based on your location, and details are available during checkout on our website.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "Is international delivery available for Yuki's product?",
+    "response": "Yes, we provide international delivery for Yuki's shake. Costs and times depend on your destination, and details are available at checkout on our website.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "Does Yuki ship outside the country?",
+    "response": "Yes, Yuki ships to most international locations. Shipping details, including costs, are available during the checkout process on our website.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "Is Yuki's shake available for international shipping?",
+    "response": "Yuki's shake is available for international shipping to most destinations. Check the checkout process on our website for specific details about shipping to your location.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "How much does international shipping cost for Yuki's shake?",
+    "response": "International shipping costs for Yuki's shake vary depending on the destination and order size. You can get a precise quote by entering your shipping details during the checkout process on our website.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "Which countries does Yuki ship to?",
+    "response": "Yuki ships to most countries worldwide. During the checkout process on our website, you can select your country to see if we ship there and get specific shipping information.",
+    "intent": "shipping_inquiry"
+    },
+    {
+    "query": "What's Yuki's return policy?",
+    "response": "We offer a 30-day money-back guarantee on Yuki's shake. If you're not satisfied with your purchase, you can return the unused portion within 30 days of delivery for a full refund, minus shipping costs.",
+    "intent": "return_policy"
+    },
+    {
+    "query": "How do I return Yuki's product?",
+    "response": "You can return Yuki's shake within 30 days of delivery for a full refund, minus shipping costs, if you're not satisfied. Please contact our customer service for the return process.",
+    "intent": "return_policy"
+    },
+    {
+    "query": "Can I return Yuki's shake if I'm not happy?",
+    "response": "Yes, we have a 30-day money-back guarantee. If you're not satisfied, you can return the unused portion of Yuki's shake within 30 days for a refund, excluding shipping costs.",
+    "intent": "return_policy"
+    },
+    {
+    "query": "What's the process for returning Yuki's shake?",
+    "response": "To return Yuki's shake, ensure it's within 30 days of delivery and has unused product. Contact our customer service for return instructions. You'll receive a full refund, minus shipping costs.",
+    "intent": "return_policy"
+    },
+    {
+    "query": "Does Yuki have a satisfaction guarantee?",
+    "response": "Yes, we offer a 30-day satisfaction guarantee for Yuki's shake. If not satisfied, you can return the product within 30 days for a refund, excluding shipping costs.",
+    "intent": "return_policy"
+    },
+    {
+    "query": "What if I don't like Yuki's product?",
+    "response": "If you're not satisfied with Yuki's shake, you can return the unused portion within 30 days of delivery for a full refund, minus shipping costs, under our 30-day money-back guarantee.",
+    "intent": "return_policy"
+    }]
